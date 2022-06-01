@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  
+  th span {
+    margin-right: 1rem;
+  }
+  
+  input {
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    background: #f0f0f0;
+  }
+  
+  .pagination {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
